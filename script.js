@@ -3,7 +3,7 @@ let container = document.querySelector('.container');
 let numberButton = document.querySelector('#numberbutton');
 
 const DEFAULT_SIZE = 16;
-const COLOR = "#3715e6";
+const DEFAULT_COLOR = "#3715e6";
 
 //for calculate the width and height of the items
 const CONTAINER_WIDTH = container.getBoundingClientRect().width;
