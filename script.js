@@ -49,7 +49,7 @@ function colorItems(numberOfItems){
 // get the number of the squares from the user
 numberButton.addEventListener('click', () => {
 
-    let squareNumber = pargeInt(prompt("New grid size: "));
+    let squareNumber = prompt("New grid size: ");
     while(squareNumber > 100) squareNumber = prompt("Too large! Max 100! New grid size: ");
     //clear container
     while(container.firstChild) container.removeChild(container.firstChild);
